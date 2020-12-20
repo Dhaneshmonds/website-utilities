@@ -1,4 +1,4 @@
-# webiste-utilities
+# website-utilities
 This Repository created for updating utility plugins and code; which will help to do development in ease way!
 Dhaneshmon D S @dhaneshmon
 
