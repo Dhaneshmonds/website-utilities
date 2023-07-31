@@ -1,0 +1,698 @@
+{
+	"employees": [
+		{
+			"id": 1,
+			"name": "Ajeesh",
+			"age": 30,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"Python",
+				"C++"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "Kerala",
+				"country": "India",
+				"zip": "691222"
+			},
+			"education": {
+				"primary": {
+					"school": "Ashtamudi Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Ashtamudi High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Kerala",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 2,
+			"name": "Adharva",
+			"age": 25,
+			"department": "Engineering",
+			"skills": [
+				"JavaScript",
+				"React",
+				"C#"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cooking",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "Kerala",
+				"country": "India",
+				"zip": "691222"
+			},
+			"education": {
+				"primary": {
+					"school": "KidzSchool",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Kerala",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 3,
+			"name": "Bimal",
+			"age": 33,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"Php",
+				"Javascript",
+				"React"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Scuba",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cooking",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "TamilNadu",
+				"country": "India",
+				"zip": "696123"
+			},
+			"education": {
+				"primary": {
+					"school": "Chennai Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Chennai High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of TamilNadu",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 4,
+			"name": "Binu",
+			"age": 30,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"ETL",
+				"SQLServer"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Football",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cricket",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cooking",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "Atlanta",
+				"country": "USA",
+				"zip": "10001"
+			},
+			"education": {
+				"primary": {
+					"school": "Atlanta Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Atlanta High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of America",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 5,
+			"name": "Dhanesh",
+			"age": 35,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"JavaScript",
+				"Angular",
+				"Python",
+				"C#"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Listening Music",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "New York",
+				"country": "USA",
+				"zip": "10001"
+			},
+			"education": {
+				"primary": {
+					"school": "New York Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "New York High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of America",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 6,
+			"name": "Krishnendhu",
+			"age": 30,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"Python",
+				"C++"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cooking",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "Kerala",
+				"country": "India",
+				"zip": "691333"
+			},
+			"education": {
+				"primary": {
+					"school": "Kerala Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Kerala High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Kerala",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 7,
+			"name": "Pratheesh",
+			"age": 30,
+			"department": "Engineering",
+			"skills": [
+				"Javascript",
+				"Python",
+				"Php"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cooking",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "Banglore",
+				"country": "India",
+				"zip": "10001"
+			},
+			"education": {
+				"primary": {
+					"school": "Banglore Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Banglore High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Banglore",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 8,
+			"name": "Ragendhu",
+			"age": 30,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"Python",
+				"C#"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cooking",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "Kerala",
+				"country": "Canada",
+				"zip": "691333"
+			},
+			"education": {
+				"primary": {
+					"school": "Kerala Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Kerala High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Kerala",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 9,
+			"name": "Rafi",
+			"department": "Marketing",
+			"age": 30,
+			"skills": [
+				"Digital Marketing",
+				"Content Writing"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				}
+			],
+			"address": {
+				"street": "456 Marketing Avenue",
+				"city": "Melbourne",
+				"country": "Australia",
+				"zip": "12201"
+			},
+			"education": {
+				"primary": {
+					"school": "Melbourne Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Melbourne High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Melbourne",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 10,
+			"name": "Rashid",
+			"age": 30,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"Python",
+				"DevOps"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Cooking",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "Ontario",
+				"country": "Canada",
+				"zip": "10001"
+			},
+			"education": {
+				"primary": {
+					"school": "Ontario Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Ontario High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Canada",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 11,
+			"name": "Sharon",
+			"age": 40,
+			"department": "Engineering",
+			"skills": [
+				"Java",
+				"JavaScript",
+				"Python",
+				"C#"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Driving",
+					"type": "Outdoor"
+				},
+				{
+					"name": "Listening Music",
+					"type": "Indoor"
+				}
+			],
+			"address": {
+				"street": "123 Main Street",
+				"city": "New York",
+				"country": "USA",
+				"zip": "10001"
+			},
+			"education": {
+				"primary": {
+					"school": "New York Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "New York High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of America",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 12,
+			"name": "Sreejith",
+			"department": "Marketing",
+			"age": 30,
+			"skills": [
+				"Digital Marketing",
+				"Content Writing"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				}
+			],
+			"address": {
+				"street": "456 Marketing Avenue",
+				"city": "Frankfurt",
+				"country": "Germany",
+				"zip": "134201"
+			},
+			"education": {
+				"primary": {
+					"school": "Frankfurt Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Frankfurt High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of Germany",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 13,
+			"name": "Teena",
+			"department": "Marketing",
+			"age": 30,
+			"skills": [
+				"Digital Marketing",
+				"Content Writing"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				}
+			],
+			"address": {
+				"street": "456 Marketing Avenue",
+				"city": "Los Angeles",
+				"country": "USA",
+				"zip": "10001"
+			},
+			"education": {
+				"primary": {
+					"school": "Los Angeles Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Los Angeles High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of America",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		},
+		{
+			"id": 14,
+			"name": "Vishnu",
+			"department": "Engineering",
+			"age": 30,
+			"skills": [
+				"Python",
+				"Javascript",
+				"React",
+				"Angular"
+			],
+			"hobbies": [
+				{
+					"name": "Reading",
+					"type": "Indoor"
+				},
+				{
+					"name": "Hiking",
+					"type": "Outdoor"
+				}
+			],
+			"address": {
+				"street": "456 Marketing Avenue",
+				"city": "Los Angeles",
+				"country": "USA",
+				"zip": "617234"
+			},
+			"education": {
+				"primary": {
+					"school": "Los Angeles Elementary",
+					"year": 1990
+				},
+				"secondary": {
+					"school": "Los Angeles High School",
+					"year": 2006
+				},
+				"college": {
+					"name": "University of America",
+					"degree": "Bachelor's",
+					"year": 2010
+				}
+			}
+		}
+	],
+	"projects": [
+		{
+			"project_id": 101,
+			"name": "Web Application",
+			"description": "Lorem ipsum dolor sit amet.",
+			"status": "In Progress",
+			"team": [
+				"Bimal",
+				"Ajeesh",
+				"Adharva",
+				"Dhanesh",
+				"Sharon",
+				"Pratheesh",
+				"Rashid",
+				"Rafi"
+			]
+		},
+		{
+			"project_id": 102,
+			"name": "Marketing Campaign",
+			"description": "Lorem ipsum dolor sit amet.",
+			"status": "Completed",
+			"team": [
+				"Binu",
+				"Sreejith",
+				"Ragendhu",
+				"Krishnendhu",
+				"Vishnu",
+				"Teena"
+			]
+		}
+	]
+}
