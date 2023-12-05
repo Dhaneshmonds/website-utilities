@@ -1,0 +1,137 @@
+<html>
+
+<head>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+    <style type="text/css">
+        .w-100{
+            width: 100%;
+        }
+        .m-h-350{
+            min-height: 350px;
+        }
+    </style>
+    <script>
+    $(document).ready(function() {
+        $("#btn-compare" ).click(function() {
+            debugger;
+            var arrContent1= $('#compare-input-1').val();
+            var arrContent2= $('#compare-input-2').val();
+            try{
+                var arr1Jsontemp = JSON.parse(JSON.stringify(arrContent1));
+                var arr2Jsontemp = JSON.parse(JSON.stringify(arrContent2));
+                var arr1Json = arr1Jsontemp.replace("\n", "");
+                var arr2Json =arr2Jsontemp.replace("\n", "");
+            }
+            catch(e){
+                alert(e);
+            }
+            var arr1 = arrContent1.split('\n');
+            var arr2 = arrContent2.split('\n');
+
+            let difference1 = arr1.filter(x => !arr2.includes(x));
+            let difference2 = arr2.filter(x => !arr1.includes(x));
+            $('#compare-result-1').text(difference1.join('\n'));
+            $('#compare-result-2').text(difference2.join('\n'));
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid"> 
+        <h4>Prod Support</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel with-nav-tabs panel-default">
+                    <div class="panel-heading">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#array-compare" data-toggle="tab">Array Compare</a></li>
+                            <li><a href="#array-split" data-toggle="tab">Array Split</a></li>
+                            <li><a href="#array-duplicate" data-toggle="tab">Array Duplicate</a></li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#tab4default" data-toggle="tab">Default 4</a></li>
+                                    <li><a href="#tab5default" data-toggle="tab">Default 5</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel-body">
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="array-compare">
+                                <!-- Array Compare Start-->
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="pull-right"><button id="btn-compare">Proccess</button></div>
+                                    </div>
+                                    <div class="row compare-input">
+                                        <div class="col-md-6">
+                                            <textarea id="compare-input-1" class="w-100 m-h-350"></textarea>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <textarea id="compare-input-2" class="w-100 m-h-350"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="row compare-input">
+                                        <div class="col-md-6">
+                                            <label>Below items are not available in second Array</label>
+                                            <textarea id="compare-result-1" class="w-100 m-h-350"></textarea>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>Below items are not available in first Array</label>
+                                            <textarea id="compare-result-2" class="w-100 m-h-350"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Array Compare End-->
+                            </div>
+                            <div class="tab-pane fade" id="array-split">array-split 2</div>
+                            <div class="tab-pane fade" id="array-duplicate">
+                                
+                                <!-- Array Duplicate Start-->
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="pull-right"><button id="btn-duplicate">Proccess</button></div>
+                                    </div>
+                                    <div class="row duplicate-input">
+                                        <div class="col-md-6">
+                                            <textarea id="duplicate-input" class="w-100 m-h-350"></textarea>
+
+                                        </div>
+                                        <div class="col-md-6"> 
+                                        </div>
+                                    </div>
+
+                                    <div class="row compare-input">
+                                        <div class="col-md-6">
+                                            <label>Below items are repeating (count is in bracket)</label>
+                                            <textarea id="compare-result-1" class="w-100 m-h-350"></textarea>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>Below data is without duplicate entries</label>
+                                            <textarea id="compare-result-2" class="w-100 m-h-350"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Array Duplicate End-->
+                            </div>
+                            <div class="tab-pane fade" id="tab4default">Default 4</div>
+                            <div class="tab-pane fade" id="tab5default">Default 5</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
